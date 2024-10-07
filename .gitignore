@@ -1,0 +1,14 @@
+# Radicale-specific files 
+.radicale.conf
+radicale.db
+radicale.log
+
+# Docker-specific files 
+.dockerenv
+.dockerignore
+Dockerfile*
+docker-compose.yml
+
+# Python-specific files 
+__pycache__
+.pytest_cache
