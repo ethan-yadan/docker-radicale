@@ -1,3 +1,5 @@
+![Don't Panic](paranoidandroidmarvin.jpg)
+
 # Radicale Docker task 
 
 Installing Radicale on Docker. 
