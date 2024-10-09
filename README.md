@@ -24,8 +24,9 @@ Radicale is a small but powerful CalDAV (calendars, to-do lists) and CardDAV (co
 
 
 ## Prerequisites
-1. python 3.5 or later (python ≥ 3.6 is recommended) and pip are installed
-2. python-Passlib and python-Bcrypt
+1. Linux Debian distribution 
+2. python 3.5 or later (python ≥ 3.6 is recommended) and pip are installed
+3. python-Passlib and python-Bcrypt
 
 
 ## Installation 
