@@ -1,0 +1,10 @@
+# ignore temporary files 
+*.tmp 
+*.log 
+
+# ignore source code control files 
+.git*
+.svn* 
+
+# ignore IDE specific files 
+.idea* 
