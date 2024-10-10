@@ -73,25 +73,25 @@ Each user will have his personal hash, configured in the Radicale users file, au
 ### Creating folders and files for docker and radicale installation: 
 
 6. ''' mkdir -p docker/radicale/data '''
-* created the folder for the task * 
+* created the folder for the task  
    
 7. ''' nano users ''' 
-* edited the file to contain two users: eitan and alex, each with its bcrypt hash created in bcrypt generator * 
-* passwords to enter the radicale server are: eitan1234, alex1234 *
+* edited the file to contain two users: eitan and alex, each with its bcrypt hash created in bcrypt generator 
+* passwords to enter the radicale server are: eitan1234, alex1234 
 	   
 8. ''' nano docker-compose.yml ''' 
-* created docker-compose file to pull docker image for radicale (file was created in docker/radicale) * 
+* created docker-compose file to pull docker image for radicale (file was created in docker/radicale) 
 
 9. ''' sudo apt install docker-compose ''' 
 	
 10. ''' docker-compose up -d && docker-compose logs -f '''
-* creating and uploading docker container *
+* creating and uploading docker container 
 
 11. ''' docker ps '''
-* checking that the container created in up and running *
+* checking that the container created in up and running
 
 12. ''' ip -br a '''
-* checking my localhost ip in my virtual machine *
+* checking my localhost ip in my virtual machine
 
 13. ''' sudo apt install radicale '''
 14. ''' sudo systemctl start radicale '''
